@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overflow-box{
+    width: 100%;
+}
+.overflow-box::-webkit-scrollbar {
+    width: 2px;
+    background-color: gray;
+}
